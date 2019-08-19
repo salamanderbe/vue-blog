@@ -6,6 +6,15 @@
     max-width: 1250px;
     margin: 0 auto;
 }
+
+img {
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+}
 </style>
 
 <style>
@@ -17,6 +26,9 @@ body {
 
 <template>
     <div id="app" class="container">
+        <a href="https://salamander.be/nl" target="_blank">
+            <img src="./assets/salamander-media.svg" alt="Salamander logo">
+        </a>
         <blog-list buttonText="Salamander" :posts="posts"></blog-list>
     </div>
 </template>
