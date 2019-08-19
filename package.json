@@ -2,7 +2,7 @@
   "name": "@salamander.be/blog",
   "description": "A VueJS blog component",
   "author": "Asef <asef@salamander.be>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "license": "MIT",
   "files": [
