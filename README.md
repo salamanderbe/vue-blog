@@ -12,9 +12,9 @@ npm i @salamander.be/blog
 
 ```python
 import Vue from 'vue';
-import Blog from '@salamander.be/blog'
+import blog-list from '@salamander.be/blog'
  
-Vue.use(Blog);
+Vue.use(blog);
 ```
 
 ## Contributing

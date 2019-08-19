@@ -1,5 +1,5 @@
 {
-  "name": "@salamander.be/blog",
+  "name": "salamander-blog",
   "description": "A VueJS blog component",
   "author": "Asef <asef@salamander.be>",
   "version": "0.1.1",
