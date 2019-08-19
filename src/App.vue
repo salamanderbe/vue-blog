@@ -8,9 +8,7 @@
 }
 
 img {
-    display: flex;
-    margin: 0 auto;
-    height: 100px;
+    height: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
     max-width: 100%;
