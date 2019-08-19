@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "main": "./dist/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -24,6 +28,7 @@
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.10.0",
     "babel-eslint": "^10.0.1",
+    "bili": "^4.8.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"

@@ -1,29 +1,25 @@
 # blog-salamander
+Blog component made with VueJS
 
-## Project setup
-```
-npm install
-```
+## Installation
+npm
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+```bash
+npm i @salamander.be/blog
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+## Getting started
+
+```python
+import Vue from 'vue';
+import Blog from '@salamander.be/blog'
+ 
+Vue.use(Blog);
 ```
 
-### Run your tests
-```
-npm run test
-```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
