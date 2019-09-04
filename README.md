@@ -8,6 +8,10 @@ npm
 npm i @salamander.be/blog
 ```
 
+## Demo
+
+https://salamanderbe.github.io/vue-blog/
+
 ## Getting started
 
 ```python
