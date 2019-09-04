@@ -4,8 +4,11 @@ import App from './App.vue'
 import VueMasonry from 'vue-masonry-css'
 Vue.use(VueMasonry);
 
+import VueCarousel from 'vue-carousel';
+Vue.use(VueCarousel);
+
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+    render: h => h(App),
 }).$mount('#app')

@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-img {
+img.salamander {
     height: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -16,16 +16,39 @@ img {
 </style>
 
 <style>
+@import "~animate.css/animate.css";
 html,
 body {
     background: #02050f;
+    
 }
+
+h1 {
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+h3 {
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+p {
+    font-weight: 500;
+    color: #ecf0f1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 </style>
 
 <template>
     <div id="app" class="container">
         <a href="https://salamander.be/nl" target="_blank">
-            <img src="./assets/salamander-media.svg" alt="Salamander logo">
+            <img src="./assets/salamander-media.svg" alt="Salamander logo" class="salamander">
         </a>
         <blog-list buttonText="Salamander" :posts="posts"></blog-list>
     </div>
@@ -40,12 +63,12 @@ export default {
     },
     data: () => ({
         posts: [
-            { title: 'I am a title', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/600?grayscale', link: "https://google.com" },
-            { title: 'I am a title', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/301?grayscale', link: "https://google.com" },
-            { title: 'I am a title', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/202?grayscale', link: "https://google.com" },
-            { title: 'I am a title', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/503?grayscale', link: "https://google.com" },
-            { title: 'I am a title', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beataeLorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/604?grayscale', link: "https://google.com" },
-            { title: 'I am a title', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/505?grayscale', link: "https://google.com" },
+            { title: 'Lancashire fondue queso.', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/600?grayscale', link: "https://google.com" },
+            { title: 'Fondue taleggio chalk and cheese', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: './assets/images/dummy-image.jpg', link: "https://google.com" },
+            { title: 'Cheesy grin say cheese', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/202?grayscale', link: "https://google.com" },
+            { title: 'Croque monsieur pepper jack', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/503?grayscale', link: "https://google.com" },
+            { title: 'cheesecake manchego feta roquefort.', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beataeLorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae', image: 'https://picsum.photos/500/604?grayscale', link: "https://google.com" },
+            { title: 'everyone loves gouda babybel smelly cheese hard cheese', body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beataeLorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beatae Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci temporibus earum vero aut fuga rerum atque, sapiente alias consectetur quia beataeLorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ', image: 'https://picsum.photos/500/505?grayscale', link: "https://google.com" },
         ]
     }),
 }
